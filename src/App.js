@@ -1,7 +1,12 @@
 import React from "react"
+import "./style/master.scss"
 
 function App() {
-  return <div>Hello World</div>
+  return (
+    <div>
+      <h1 className="text-danger">Hello World</h1>
+    </div>
+  )
 }
 
 export default App
