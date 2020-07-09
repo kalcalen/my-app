@@ -11,7 +11,7 @@ function App() {
    return (
       <Router>
          <Switch>
-            <Route exact path="/landing" component={Landing} />
+            <Route exact path="/" component={Landing} />
             <Route exact path="/edit-detail" component={EditDetail} />
             <Route exact path="/parks" component={Parks} />
             <Route exact path="/players" component={Players} />
