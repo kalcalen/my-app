@@ -1,11 +1,22 @@
 import React from "react"
 import "./style/master.scss"
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
 function App() {
   return (
-    <div>
-      <h1 className="text-danger">Hello World</h1>
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/" component={} />
+        <Route exact path="/" component={} />
+        <Route exact path="/" component={} />
+        <Route exact path="/" component={} />
+        <Route exact path="/" component={} />
+        <Route exact path="/" component={} />
+        <Route exact path="/" component={} />
+        <Route exact path="/" component={} />
+        <Route component={NotFound} />
+      </Switch>
+    </Router>
   )
 }
 
