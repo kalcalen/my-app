@@ -6,7 +6,7 @@ export default function Landing() {
          <div className="container-fluid ">
             <div className="row d-flex ">
                {/* <div className="offset-1 col-10 offset-sm-2 col-sm-8 offset-md-1 col-md-5 offset-lg-2 col-lg-4 offset-xl-1 col-xl-4"> */}
-               <div className="col d-flex justify-content-center">
+               <div className="col d-flex usjtify-content-center">
                   <div className="card mb-5 mx-auto">
                      <div className="card-body landing-text">
                         <h2 className="card-title">Welcome Back</h2>
