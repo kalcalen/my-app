@@ -17,9 +17,10 @@
 }
 
 .card {
-   border: 0;
+   margin: 0 auto; /* Added */
+   float: none; /* Added */
+   margin-top: 300px; /* Added */
 }
-
 .card-body {
    color: $white;
    font-family: $font-family-serif;
