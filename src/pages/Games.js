@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function ReviewImagery() {
+export default function Games() {
    return (
       <>
-         <h1>Parks</h1>
+         <h1>Games</h1>
       </>
    );
 }
