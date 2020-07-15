@@ -12,7 +12,6 @@ export default function Landing() {
                      <div className="card mb-5">
                         <div className="card-body landing-text">
                            <h2 className="card-title">Nice to meet you</h2>
-                           <p className="mb-3">Free forever.</p>
                            <button
                               id="sign-up"
                               className="btn btn-block btn-success mb-4"
@@ -48,7 +47,7 @@ export default function Landing() {
                               <a
                                  id="letsGo"
                                  className="btn btn-success btn-block float-right mt-3"
-                                 href="create-answer"
+                                 href="games"
                               >
                                  Lets go!
                               </a>
