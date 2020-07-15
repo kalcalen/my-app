@@ -5,7 +5,9 @@ export default function Landing() {
       <>
          <div className="background-image">
             <div className="container-fluid">
-               <div className="row"></div>
+               <div className="row">
+                  <div className="col-12 mt-xl-7 mt-lg-5 mt-4"></div>
+               </div>
 
                <div className="row card-index">
                   <div className="offset-1 col-10 offset-sm-2 col-sm-8 offset-md-1 col-md-5 offset-lg-2 col-lg-4 offset-xl-1 col-xl-4">
@@ -47,7 +49,7 @@ export default function Landing() {
                               <a
                                  id="letsGo"
                                  className="btn btn-success btn-block float-right mt-3"
-                                 href="games"
+                                 href="players"
                               >
                                  Lets go!
                               </a>
