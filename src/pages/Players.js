@@ -5,8 +5,6 @@ export default function Players() {
    return (
       <AppTemplate>
          <h4 class="my-4 text-center text-primary text-muted">Players</h4>
-
-         <div class="mb-2"></div>
       </AppTemplate>
    );
 }
