@@ -9,6 +9,7 @@ export default function Header() {
          <a href="index.html" class="btn btn-link float-right">
             Log out
          </a>
+         <div className="clearfix"></div>
       </div>
    );
 }
