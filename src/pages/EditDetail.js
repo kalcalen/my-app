@@ -1,5 +1,6 @@
 import React from "react";
 import AppTemplate from "../ui/AppTemplate";
+import { Link } from "react-router-dom";
 
 export default function EditDetail() {
    return (
@@ -100,6 +101,18 @@ export default function EditDetail() {
             id="defaultCheck1"
          ></input>
          Sunday
+         <Link
+            className="btn btn-lg btn-primary float-right"
+            id="save-imagery"
+            to=""
+         >
+            <img
+               width="20px"
+               style={{ marginBottom: "5px", marginRight: "4px" }}
+               alt=""
+            />
+            Save
+         </Link>
       </AppTemplate>
    );
 }

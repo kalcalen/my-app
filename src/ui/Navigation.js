@@ -8,13 +8,11 @@ export default function Navigation() {
          role="navigation"
          aria-label="navigation"
       >
-         <Link type="button" className={"btn btn-secondary"}>
+         <Link type="players" className={"btn btn-secondary"}>
             Players
          </Link>
-         <Link to="group" className="btn btn-secondary">
-            Group
-         </Link>
-         <Link to="editdetail" className="btn btn-secondary">
+
+         <Link to="edit-detail" className="btn btn-secondary">
             Edit Details
          </Link>
       </div>

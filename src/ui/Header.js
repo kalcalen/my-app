@@ -1,5 +1,4 @@
 import React from "react";
-import landingLogoBlk from "../img/landing-logo-blk.png";
 
 export default function Header() {
    return (
