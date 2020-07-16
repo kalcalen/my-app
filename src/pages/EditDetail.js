@@ -49,6 +49,57 @@ export default function EditDetail() {
             <option value="2">Downtown</option>
             <option value="3">Spring Valley</option>
          </select>
+         <p>Availability</p>
+         <input
+            className={{ "form-check-input": true }}
+            type="checkbox"
+            value=""
+            id="defaultCheck1"
+         ></input>
+         Monday
+         <input
+            className={{ "form-check-input": true }}
+            type="checkbox"
+            value=""
+            id="defaultCheck1"
+         ></input>
+         Tuesday
+         <input
+            className={{ "form-check-input": true }}
+            type="checkbox"
+            value=""
+            id="defaultCheck1"
+         ></input>
+         Wednesday
+         <br />
+         <input
+            className={{ "form-check-input": true }}
+            type="checkbox"
+            value=""
+            id="defaultCheck1"
+         ></input>
+         Thursday
+         <input
+            className={{ "form-check-input": true }}
+            type="checkbox"
+            value=""
+            id="defaultCheck1"
+         ></input>
+         Friday
+         <input
+            className={{ "form-check-input": true }}
+            type="checkbox"
+            value=""
+            id="defaultCheck1"
+         ></input>
+         Saturday
+         <input
+            className={{ "form-check-input": true }}
+            type="checkbox"
+            value=""
+            id="defaultCheck1"
+         ></input>
+         Sunday
       </AppTemplate>
    );
 }

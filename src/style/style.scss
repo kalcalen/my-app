@@ -71,6 +71,15 @@ textarea {
    min-height: 100vh;
 }
 
+.HeaderLogo {
+   background: url("../img/landing-logo-blk.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 200px;
+   background-position: center;
+   height: 109px;
+}
+
 .app-contents {
    height: 100vh;
 }
@@ -86,7 +95,7 @@ textarea {
 // Index cards
 
 .card-index {
-   margin-top: 300px;
+   margin-top: 100px;
 }
 
 .landing-text {
