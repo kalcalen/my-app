@@ -1,4 +1,5 @@
 import React from "react";
+import landingLogo from "../img/landing-logo.png";
 
 export default function Landing() {
    return (
@@ -6,11 +7,13 @@ export default function Landing() {
          <div className="background-image">
             <div className="container-fluid">
                <div className="row">
-                  <div className="col-12 mt-xl-7 mt-lg-5 mt-4"></div>
+                  <div className="col-12 mt-xl-7 mt-lg-5 mt-4">
+                     <img src={landingLogo} alt="" />
+                  </div>
                </div>
 
                <div className="row card-index">
-                  <div className="offset-1 col-10 offset-sm-2 col-sm-8 offset-md-1 col-md-5 offset-lg-2 col-lg-4 offset-xl-1 col-xl-4">
+                  <div className="offset-1 col-12 offset-sm-2 col-sm-8 offset-md-1 col-md-5 offset-lg-2 col-lg-4 offset-xl-1 col-xl-4">
                      <div className="card mb-5">
                         <div className="card-body landing-text">
                            <h2 className="card-title">Nice to meet you</h2>

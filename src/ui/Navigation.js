@@ -2,8 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export default function Navigation() {
-   const url = window.location.pathname;
-   console.log(url);
+   //  const url = window.location.pathname;
+   //  console.log(url);
+   //  const tabActiveOnCreate =
    return (
       <div
          className="btn-group d-flex mt-1"
