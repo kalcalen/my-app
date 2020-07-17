@@ -16,7 +16,9 @@ export default function Landing() {
                <div className="col-12 col-xl-6 offset-xl-3 col-lg-8 offset-lg-2 col-md-10 offset-md-1">
                   <div id="landingCard" className="card mb-5">
                      <div className="card-body landing-text">
-                        <h2 className="card-title">Nice to meet you</h2>
+                        <h2 style={{ color: "white" }} className="card-title">
+                           Nice to meet you
+                        </h2>
                         <Link to="sign-up" className="text-success mb-4">
                            Not a member?
                         </Link>
