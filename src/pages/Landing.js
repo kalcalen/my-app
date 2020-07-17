@@ -46,7 +46,7 @@ export default function Landing() {
                               Lets go!
                            </Link>
                            <Link
-                              to="sign-up"
+                              to="sign-up-page"
                               className="btn btn-success btn-block mt-3"
                            >
                               Sign Up!
