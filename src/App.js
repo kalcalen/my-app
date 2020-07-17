@@ -3,7 +3,7 @@ import "./style/master.scss";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Landing from "./pages/Landing";
 import EditDetail from "./pages/EditDetail";
-import Players from "./pages/Players";
+import PlayersPage from "./pages/PlayersPage";
 import NotFound from "./pages/NotFound";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
          <Switch>
             <Route exact path="/" component={Landing} />
             <Route exact path="/edit-detail" component={EditDetail} />
-            <Route exact path="/players" component={Players} />
+            <Route exact path="/players" component={PlayersPage} />
             <Route component={NotFound} />
          </Switch>
       </Router>

@@ -11,10 +11,6 @@ export default function Landing() {
                   <img className="justify-center" src={landingLogo} alt="" />
                   <div id="landingCard" className="card mb-5">
                      <div className="card-body landing-text">
-                        <h2 style={{ color: "white" }} className="card-title">
-                           Nice to meet you
-                        </h2>
-
                         <div id="form-toggle">
                            <p
                               style={{ color: "white" }}
@@ -45,7 +41,7 @@ export default function Landing() {
                            <Link
                               id="letsGo"
                               className="btn btn-success btn-block mt-3"
-                              href="players"
+                              to="/players"
                            >
                               Lets go!
                            </Link>
