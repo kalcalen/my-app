@@ -65,8 +65,8 @@ textarea {
    color: $white;
 }
 .background-image {
-   background-image: url("../img/background-landing.jpg");
-   // background-repeat: no-repeat;
+   background-image: url("../img/myAppBackGrnd.jpg");
+   background-repeat: no-repeat;
    background-size: cover;
    min-height: 100vh;
 }
@@ -77,7 +77,7 @@ textarea {
    background-size: cover;
    width: 200px;
    background-position: center;
-   height: 109px;
+   min-height: 109px;
 }
 
 .app-contents {
@@ -85,7 +85,7 @@ textarea {
 }
 
 .index-logo {
-   color: $white;
+   color: $gray-800;
 }
 
 .index-button {
@@ -94,9 +94,9 @@ textarea {
 
 // Index cards
 
-.card-index {
-   margin-top: 100px;
-}
+// .card-index {
+//    margin-top: 100px;
+// }
 
 .landing-text {
    color: $black;
@@ -104,4 +104,8 @@ textarea {
 
 .pointer {
    cursor: pointer;
+}
+
+#landingCard {
+   background: transparent;
 }
