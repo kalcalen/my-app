@@ -1,5 +1,5 @@
 import React from "react";
-import landingLogo from "../img/landing-logo.png";
+import landingLogo from "../img/landingLogo.PNG";
 import { Link } from "react-router-dom";
 
 export default function Landing() {
@@ -8,7 +8,7 @@ export default function Landing() {
          <div className="container">
             <div className="row card-index">
                <div className="col-12 col-xl-6 offset-xl-3 col-lg-8 offset-lg-2 col-md-10 offset-md-1">
-                  <img src={landingLogo} alt="" />
+                  <img className="justify-center" src={landingLogo} alt="" />
                   <div id="landingCard" className="card mb-5">
                      <div className="card-body landing-text">
                         <h2 style={{ color: "white" }} className="card-title">
