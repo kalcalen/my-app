@@ -1,6 +1,7 @@
 import React from "react";
 import landingLogo from "../img/landingLogo.PNG";
 import { Link } from "react-router-dom";
+import TimeTemplate from "../ui/TimeTemplate";
 
 export default class SignUp extends React.Component {
    render() {
@@ -65,6 +66,24 @@ export default class SignUp extends React.Component {
                                  id="passwordCreate"
                                  name="password"
                               />
+                              <p
+                                 style={{ color: "white" }}
+                                 className="mt-5"
+                                 for="password"
+                              >
+                                 Location
+                              </p>
+                              <select
+                                 className="custom-select"
+                                 id="inputGroupSelect01"
+                              >
+                                 <option value>Summerlin</option>
+                                 <option value="1">SouthWest</option>
+                                 <option value="2">Downtown</option>
+                                 <option value="3">Spring Valley</option>
+                              </select>
+                              <TimeTemplate />
+
                               <Link
                                  id="letsGo"
                                  className="btn btn-success btn-block mt-3"
