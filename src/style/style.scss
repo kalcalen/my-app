@@ -74,7 +74,7 @@ textarea {
 .HeaderLogo {
    background: url("../img/pageLogoBlack.PNG");
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size: contain;
    width: 200px;
    background-position: center;
    min-height: 100px;
