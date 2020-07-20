@@ -6,7 +6,15 @@ export default function TimeTemplate() {
          <p className="mt-3" style={{ color: "white" }}>
             Availability
          </p>
-         <p style={{ color: "white" }}>Monday</p>
+         <select className="custom-select" id="inputGroupSelect01">
+            <option value>Sunday</option>
+            <option value="1">Monday</option>
+            <option value="2">Tuesday</option>
+            <option value="4">Wednesday</option>
+            <option value="5">Thursday</option>
+            <option value="6">Friday</option>
+            <option value="7">Saturday</option>
+         </select>
          <input
             className={{ "form-check-input": true }}
             type="checkbox"

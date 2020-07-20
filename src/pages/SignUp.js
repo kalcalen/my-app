@@ -17,7 +17,7 @@ export default class SignUp extends React.Component {
                               <p
                                  style={{ color: "white" }}
                                  className=""
-                                 for="name"
+                                 htmlFor="name"
                               >
                                  Name
                               </p>
@@ -30,7 +30,7 @@ export default class SignUp extends React.Component {
                               <p
                                  style={{ color: "white" }}
                                  className=""
-                                 for="email"
+                                 htmlFor="email"
                               >
                                  Email Address
                               </p>
@@ -43,7 +43,7 @@ export default class SignUp extends React.Component {
                               <p
                                  style={{ color: "white" }}
                                  className=""
-                                 for="phone"
+                                 htmlFor="phone"
                               >
                                  Phone
                               </p>
@@ -56,7 +56,7 @@ export default class SignUp extends React.Component {
                               <p
                                  style={{ color: "white" }}
                                  className="mt-5"
-                                 for="password"
+                                 htmlFor="password"
                               >
                                  Password
                               </p>
@@ -69,7 +69,7 @@ export default class SignUp extends React.Component {
                               <p
                                  style={{ color: "white" }}
                                  className="mt-5"
-                                 for="password"
+                                 htmlFor="password"
                               >
                                  Location
                               </p>
