@@ -11,19 +11,17 @@ export default function Navigation() {
    };
 
    return (
-      <div
-         className="btn-group d-flex mt-1"
-         role="navigation"
-         aria-label="navigation"
-      >
+      <div className="btn-group d-flex mt-1 " role="navigation" id="navigation">
          <Link
             to="players"
-            className={`btn btn-secondary ${tabActiveOnPlayers(url)}`}
+            className={`btn btn-secondary  btn-success ${tabActiveOnPlayers(
+               url
+            )}`}
          >
             Players
          </Link>
 
-         <Link to="edit-detail" className="btn btn-secondary">
+         <Link to="edit-detail" className="btn btn-secondary  btn-success">
             Edit Details
          </Link>
       </div>

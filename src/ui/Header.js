@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Header() {
    return (
@@ -8,7 +9,7 @@ export default function Header() {
             justifyContent: "center",
          }}
       >
-         <div className="HeaderLogo"></div>
+         <Link to="/" className="HeaderLogo"></Link>
       </div>
    );
 }
