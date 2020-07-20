@@ -13,85 +13,83 @@ export default class SignUp extends React.Component {
                      <img className="justify-center" src={landingLogo} alt="" />
                      <div id="landingCard" className="card mb-5">
                         <div className="card-body landing-text">
-                           <div id="form-toggle">
-                              <p
-                                 style={{ color: "white" }}
-                                 className=""
-                                 htmlFor="name"
-                              >
-                                 Name
-                              </p>
-                              <input
-                                 className="form-control mb-3"
-                                 type="name"
-                                 id="name"
-                                 name="name"
-                              />
-                              <p
-                                 style={{ color: "white" }}
-                                 className=""
-                                 htmlFor="email"
-                              >
-                                 Email Address
-                              </p>
-                              <input
-                                 className="form-control mb-3"
-                                 type="email"
-                                 id="emailCreate"
-                                 name="email"
-                              />
-                              <p
-                                 style={{ color: "white" }}
-                                 className=""
-                                 htmlFor="phone"
-                              >
-                                 Phone
-                              </p>
-                              <input
-                                 className="form-control mb-3"
-                                 type="phone"
-                                 id="phone"
-                                 name="phone"
-                              />
-                              <p
-                                 style={{ color: "white" }}
-                                 className="mt-5"
-                                 htmlFor="password"
-                              >
-                                 Password
-                              </p>
-                              <input
-                                 className="form-control mb-3"
-                                 type="password"
-                                 id="passwordCreate"
-                                 name="password"
-                              />
-                              <p
-                                 style={{ color: "white" }}
-                                 className="mt-5"
-                                 htmlFor="password"
-                              >
-                                 Location
-                              </p>
-                              <select
-                                 className="custom-select"
-                                 id="inputGroupSelect01"
-                              >
-                                 <option value>Summerlin</option>
-                                 <option value="1">SouthWest</option>
-                                 <option value="2">Downtown</option>
-                                 <option value="3">Spring Valley</option>
-                              </select>
-                              <TimeTemplate />
+                           <p
+                              style={{ color: "white" }}
+                              className=""
+                              htmlFor="name"
+                           >
+                              Name
+                           </p>
+                           <input
+                              className="form-control mb-3"
+                              type="name"
+                              id="name"
+                              name="name"
+                           />
+                           <p
+                              style={{ color: "white" }}
+                              className=""
+                              htmlFor="email"
+                           >
+                              Email Address
+                           </p>
+                           <input
+                              className="form-control mb-3"
+                              type="email"
+                              id="emailCreate"
+                              name="email"
+                           />
+                           <p
+                              style={{ color: "white" }}
+                              className=""
+                              htmlFor="phone"
+                           >
+                              Phone
+                           </p>
+                           <input
+                              className="form-control mb-3"
+                              type="phone"
+                              id="phone"
+                              name="phone"
+                           />
+                           <p
+                              style={{ color: "white" }}
+                              className="mt-5"
+                              htmlFor="password"
+                           >
+                              Password
+                           </p>
+                           <input
+                              className="form-control mb-3"
+                              type="password"
+                              id="passwordCreate"
+                              name="password"
+                           />
+                           <p
+                              style={{ color: "white" }}
+                              className="mt-5"
+                              htmlFor="password"
+                           >
+                              Location
+                           </p>
+                           <select
+                              className="custom-select"
+                              id="inputGroupSelect01"
+                           >
+                              <option value>Summerlin</option>
+                              <option value="1">SouthWest</option>
+                              <option value="2">Downtown</option>
+                              <option value="3">Spring Valley</option>
+                           </select>
+                           <TimeTemplate />
 
-                              <Link
-                                 id="letsGo"
-                                 className="btn btn-success btn-block mt-3"
-                                 to="/players"
-                              >
-                                 Lets go!
-                              </Link>
-                           </div>
+                           <Link
+                              id="letsGo"
+                              className="btn btn-success btn-block mt-3"
+                              to="/players"
+                           >
+                              Lets go!
+                           </Link>
                         </div>
                      </div>
                   </div>

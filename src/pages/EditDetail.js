@@ -5,44 +5,38 @@ import { Link } from "react-router-dom";
 export default function EditDetail() {
    return (
       <AppTemplate>
-         <h4 class="my-4 text-center text-primary text-muted">Edit Detail</h4>
+         <h4 className="my-4 text-center text-primary text-muted">
+            Edit Detail
+         </h4>
          <br />
-         <p for="exampleInputEmail1">Name</p>
+         <p htmlFor="exampleInputEmail1">Name</p>
          <input
-            type="email"
-            className={{
-               "form-control": true,
-               "mb-2": true,
-            }}
-            id="signup-email-input"
+            className="form-control mb-3"
+            type="name"
+            id="name"
+            name="name"
          />
-         <p for="exampleInputEmail1">Email</p>
+         <p htmlFor="exampleInputEmail1">Email</p>
          <input
+            className="form-control mb-3"
             type="email"
-            className={{
-               "form-control": true,
-               "mb-2": true,
-            }}
-            id="signup-email-input"
-         ></input>
-         <p for="exampleInputEmail1">Phone Number</p>
+            id="email"
+            name="emailEditDetail"
+         />
+         <p htmlFor="exampleInputEmail1">Phone Number</p>
          <input
-            type="email"
-            className={{
-               "form-control": true,
-               "mb-2": true,
-            }}
-            id="signup-email-input"
-         ></input>
-         <p for="exampleInputEmail1">Password</p>
+            className="form-control mb-3"
+            type="phoneNumber"
+            id="phoneNumber"
+            name="phoneNumber"
+         />
+         <p htmlFor="exampleInputEmail1">Password</p>
          <input
-            type="email"
-            className={{
-               "form-control": true,
-               "mb-2": true,
-            }}
-            id="signup-email-input"
-         ></input>
+            className="form-control mb-3"
+            type="password"
+            id="password"
+            name="password"
+         />
          <p>Location</p>
          <select className="custom-select" id="inputGroupSelect01">
             <option value>Summerlin</option>
