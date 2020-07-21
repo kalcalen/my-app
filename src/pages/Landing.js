@@ -15,7 +15,7 @@ export default function Landing() {
                            <p
                               style={{ color: "white" }}
                               className=""
-                              for="email"
+                              htmlFor="email"
                            >
                               Email Address
                            </p>
@@ -28,7 +28,7 @@ export default function Landing() {
                            <p
                               style={{ color: "white" }}
                               className="mt-5"
-                              for="password"
+                              htmlFor="password"
                            >
                               Password
                            </p>

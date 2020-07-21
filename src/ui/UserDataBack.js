@@ -3,6 +3,10 @@ import memoryCards from "../mock-data/memory-cards";
 
 const memoryCard = memoryCards[0];
 
+function handleChange(e) {
+   console.log(e.target.value);
+}
+
 export default function UserDataBack() {
    return (
       <div className="card">
@@ -26,42 +30,49 @@ export default function UserDataBack() {
                   type="checkbox"
                   className="col"
                   checked={memoryCard.availability.monday.am11}
+                  onChange={handleChange}
                />
                <input
                   id="tuesAm11"
                   type="checkbox"
                   className="col"
                   checked={memoryCard.availability.tuesday.am11}
+                  onChange={handleChange}
                />
                <input
                   id="wedAm11"
                   type="checkbox"
                   className="col"
                   checked={memoryCard.availability.wednesday.am11}
+                  onChange={handleChange}
                />
                <input
                   id="thursAm11"
                   type="checkbox"
                   className="col"
                   checked={memoryCard.availability.thursday.am11}
+                  onChange={handleChange}
                />
                <input
                   id="friAm11"
                   type="checkbox"
                   className="col"
                   checked={memoryCard.availability.friday.am11}
+                  onChange={handleChange}
                />
                <input
                   id="satAm11"
                   type="checkbox"
                   className="col"
                   checked={memoryCard.availability.saturday.am11}
+                  onChange={handleChange}
                />
                <input
                   id="sunAm11"
                   type="checkbox"
                   className="col"
                   checked={memoryCard.availability.sunday.am11}
+                  onChange={handleChange}
                />
             </div>
          </div>

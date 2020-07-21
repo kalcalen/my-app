@@ -50,7 +50,6 @@ export default class Players extends React.Component {
                flipDirection="horizontal"
             >
                <div>
-                  This is the front of the card.
                   <UserDataFront />
                   <button onClick={this.handleClick}>
                      Click to see availability
@@ -58,7 +57,6 @@ export default class Players extends React.Component {
                </div>
 
                <div>
-                  This is the back of the card.
                   <UserDataBack />
                   <button onClick={this.handleClick}>Back to info.</button>
                </div>
