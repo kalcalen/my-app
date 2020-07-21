@@ -2,6 +2,7 @@ import React from "react";
 import AppTemplate from "../ui/AppTemplate";
 import UserDataFront from "../ui/UserDataFront";
 import UserDataBack from "../ui/UserDataBack";
+import ReactCardFlip from "react-card-flip";
 
 export default class Players extends React.Component {
    componentDidMount() {
@@ -26,14 +27,44 @@ export default class Players extends React.Component {
       console.log(today);
    }
 
+   constructor() {
+      super();
+      this.state = {
+         isFlipped: false,
+      };
+      this.handleClick = this.handleClick.bind(this);
+   }
+
+   handleClick(e) {
+      e.preventDefault();
+      this.setState((prevState) => ({ isFlipped: !prevState.isFlipped }));
+   }
+
    render() {
       return (
          <AppTemplate>
             <h4 className="my-4 text-center text-primary text-muted">
                Players
             </h4>
-            <UserDataFront />
-            <UserDataBack />
+
+            <ReactCardFlip
+               isFlipped={this.state.isFlipped}
+               flipDirection="vertical"
+            >
+               <div>
+                  This is the front of the card.
+                  <UserDataFront />
+                  <button onClick={this.handleClick}>
+                     Click to see availability
+                  </button>
+               </div>
+
+               <div>
+                  This is the back of the card.
+                  <UserDataBack />
+                  <button onClick={this.handleClick}>Back to info.</button>
+               </div>
+            </ReactCardFlip>
          </AppTemplate>
       );
    }
