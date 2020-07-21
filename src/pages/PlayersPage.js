@@ -49,7 +49,7 @@ export default class Players extends React.Component {
 
             <ReactCardFlip
                isFlipped={this.state.isFlipped}
-               flipDirection="vertical"
+               flipDirection="horizontal"
             >
                <div>
                   This is the front of the card.
