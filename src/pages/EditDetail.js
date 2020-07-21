@@ -5,46 +5,52 @@ import { Link } from "react-router-dom";
 export default function EditDetail() {
    return (
       <AppTemplate>
-         <h4 className="my-4 text-center text-primary text-muted">
-            Edit Detail
-         </h4>
+         <h4 className="my-4 text-center text-color-white">Edit Detail</h4>
          <br />
-         <p htmlFor="exampleInputEmail1">Name</p>
+         <p className="text-color-white" htmlFor="exampleInputEmail1">
+            Name
+         </p>
          <input
             className="form-control mb-3"
             type="name"
             id="name"
             name="name"
          />
-         <p htmlFor="exampleInputEmail1">Email</p>
+         <p className="text-color-white" htmlFor="exampleInputEmail1">
+            Email
+         </p>
          <input
             className="form-control mb-3"
             type="email"
             id="email"
             name="emailEditDetail"
          />
-         <p htmlFor="exampleInputEmail1">Phone Number</p>
+         <p className="text-color-white" htmlFor="exampleInputEmail1">
+            Phone Number
+         </p>
          <input
             className="form-control mb-3"
             type="phoneNumber"
             id="phoneNumber"
             name="phoneNumber"
          />
-         <p htmlFor="exampleInputEmail1">Password</p>
+         <p className="text-color-white" htmlFor="exampleInputEmail1">
+            Password
+         </p>
          <input
             className="form-control mb-3"
             type="password"
             id="password"
             name="password"
          />
-         <p>Location</p>
+         <p className="text-color-white">Location</p>
          <select className="custom-select" id="inputGroupSelect01">
             <option value>Summerlin</option>
             <option value="1">SouthWest</option>
             <option value="2">Downtown</option>
             <option value="3">Spring Valley</option>
          </select>
-         <p>Availability</p>
+         <p className="text-color-white">Availability</p>
          <input
             className={{ "form-check-input": true }}
             type="checkbox"
@@ -96,7 +102,7 @@ export default function EditDetail() {
          ></input>
          Sunday
          <Link
-            className="btn btn-lg btn-primary float-right"
+            className="btn btn-lg btn-primary btn-success float-right"
             id="save-imagery"
             to=""
          >

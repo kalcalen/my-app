@@ -43,9 +43,7 @@ export default class Players extends React.Component {
    render() {
       return (
          <AppTemplate>
-            <h4 className="my-4 text-center text-primary text-muted">
-               Players
-            </h4>
+            <h4 className="my-4 text-center text-color-white">Players</h4>
 
             <ReactCardFlip
                isFlipped={this.state.isFlipped}

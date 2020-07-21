@@ -17,7 +17,9 @@
 }
 
 .card {
-   background-image: url("../img/greyConcrete.jpg");
+   background-image: url("../img/cardBackGrn3.jpeg");
+   background-size: cover;
+   background-repeat: no-repeat;
    margin: 0 auto;
    float: none;
    margin-top: 0px;
@@ -73,14 +75,14 @@ textarea {
 }
 
 .background-pages {
-   // background-image: url("../img/greyConcrete.jpg");
+   background-image: url("../img/backGrnd3.jpg");
    background-repeat: no-repeat;
    background-size: cover;
    min-height: 100vh;
 }
 
 .HeaderLogo {
-   background: url("../img/pageLogoBlack.PNG");
+   background: url("../img/landingLogo.PNG");
    background-repeat: no-repeat;
    background-size: contain;
    width: 200px;
@@ -123,4 +125,8 @@ textarea {
    margin-left: auto;
    margin-right: auto;
    width: 50%;
+}
+
+.text-color-white {
+   color: white;
 }
