@@ -75,10 +75,11 @@ textarea {
 }
 
 .background-pages {
-   background-image: url("../img/backGrnd3.jpg");
-   background-repeat: no-repeat;
+   background-image: url("../img/courtBackGround.jpg");
+   background-repeat: repeat;
    background-size: cover;
-   min-height: 100vh;
+   min-height: 122vh;
+   // background-color: #f58522;
 }
 
 // .background-edit-detail {
