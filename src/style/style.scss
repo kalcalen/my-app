@@ -17,7 +17,7 @@
 }
 
 .card {
-   background-image: url("../img/cardBackGrn3.jpeg");
+   // background-image: url("../img/cardBackGrn3.jpeg");
    background-size: cover;
    background-repeat: no-repeat;
    margin: 0 auto;
@@ -80,6 +80,10 @@ textarea {
    background-size: cover;
    min-height: 100vh;
 }
+
+// .background-edit-detail {
+//    background-image: url("../img/greyConcrete.jpg");
+// }
 
 .HeaderLogo {
    background: url("../img/landingLogo.PNG");
