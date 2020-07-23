@@ -1,4 +1,5 @@
 import React from "react";
+import saveIcon from "../icons/saveIcon.svg";
 import AppTemplate from "../ui/AppTemplate";
 import { Link } from "react-router-dom";
 import TimeTemplate from "../ui/TimeTemplate";
@@ -53,13 +54,14 @@ export default function EditDetail() {
          </select>
          <TimeTemplate />
          <Link
-            className="btn btn-lg btn-primary btn-success float-right mt-5"
+            className="btn btn-primary btn-success float-right mt-5"
             id="save-imagery"
             to=""
          >
             <img
+               src={saveIcon}
                width="20px"
-               style={{ marginBottom: "5px", marginRight: "4px" }}
+               style={{ marginBottom: "0px", marginRight: "10px" }}
                alt=""
             />
             Save
