@@ -1,5 +1,5 @@
 import React from "react";
-import saveIcon from "../icons/saveIcon.svg";
+import save from "../icons/save.svg";
 import AppTemplate from "../ui/AppTemplate";
 import { Link } from "react-router-dom";
 import TimeTemplate from "../ui/TimeTemplate";
@@ -59,9 +59,14 @@ export default function EditDetail() {
             to=""
          >
             <img
-               src={saveIcon}
+               color="white"
+               src={save}
                width="20px"
-               style={{ marginBottom: "0px", marginRight: "10px" }}
+               style={{
+                  marginBottom: "0px",
+                  marginRight: "10px",
+                  marginTop: "5px",
+               }}
                alt=""
             />
             Save
