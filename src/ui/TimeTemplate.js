@@ -22,35 +22,35 @@ export default function TimeTemplate() {
             value=""
             id="defaultCheck1"
          ></input>
-         <span style={{ color: "white" }}>6</span>
+         <span style={{ color: "white" }}>6a</span>
          <input
             className={{ "form-check-input": true }}
             type="checkbox"
             value=""
             id="defaultCheck1"
          ></input>
-         <span style={{ color: "white" }}>7</span>
+         <span style={{ color: "white" }}>7a</span>
          <input
             className={{ "form-check-input": true }}
             type="checkbox"
             value=""
             id="defaultCheck1"
          ></input>
-         <span style={{ color: "white" }}>8</span>
+         <span style={{ color: "white" }}>8a</span>
          <input
             className={{ "form-check-input": true }}
             type="checkbox"
             value=""
             id="defaultCheck1"
          ></input>
-         <span style={{ color: "white" }}>9</span>
+         <span style={{ color: "white" }}>9a</span>
          <input
             className={{ "form-check-input": true }}
             type="checkbox"
             value=""
             id="defaultCheck1"
          ></input>
-         <span style={{ color: "white" }}>10</span>
+         <span style={{ color: "white" }}>10a</span>
          <input
             className={{ "form-check-input": true }}
             type="checkbox"
@@ -58,7 +58,7 @@ export default function TimeTemplate() {
             id="defaultCheck1"
          ></input>
 
-         <span style={{ color: "white" }}>11</span>
+         <span style={{ color: "white" }}>11a</span>
          <input
             className={{ "form-check-input": true }}
             type="checkbox"
@@ -66,84 +66,84 @@ export default function TimeTemplate() {
             r
             id="defaultCheck1"
          ></input>
-         <span style={{ color: "white" }}>12</span>
+         <span style={{ color: "white" }}>12p</span>
          <input
             className={{ "form-check-input": true }}
             type="checkbox"
             value=""
             id="defaultCheck1"
          ></input>
-         <span style={{ color: "white" }}>1</span>
+         <span style={{ color: "white" }}>1p</span>
          <input
             className={{ "form-check-input": true }}
             type="checkbox"
             value=""
             id="defaultCheck1"
          ></input>
-         <span style={{ color: "white" }}>2</span>
+         <span style={{ color: "white" }}>2p</span>
          <input
             className={{ "form-check-input": true }}
             type="checkbox"
             value=""
             id="defaultCheck1"
          ></input>
-         <span style={{ color: "white" }}>3</span>
+         <span style={{ color: "white" }}>3p</span>
          <input
             className={{ "form-check-input": true }}
             type="checkbox"
             value=""
             id="defaultCheck1"
          ></input>
-         <span style={{ color: "white" }}>4</span>
+         <span style={{ color: "white" }}>4p</span>
          <input
             className={{ "form-check-input": true }}
             type="checkbox"
             value=""
             id="defaultCheck1"
          ></input>
-         <span style={{ color: "white" }}>5</span>
+         <span style={{ color: "white" }}>5p</span>
          <input
             className={{ "form-check-input": true }}
             type="checkbox"
             value=""
             id="defaultCheck1"
          ></input>
-         <span style={{ color: "white" }}>6</span>
+         <span style={{ color: "white" }}>6p</span>
          <input
             className={{ "form-check-input": true }}
             type="checkbox"
             value=""
             id="defaultCheck1"
          ></input>
-         <span style={{ color: "white" }}>7</span>
+         <span style={{ color: "white" }}>7p</span>
          <input
             className={{ "form-check-input": true }}
             type="checkbox"
             value=""
             id="defaultCheck1"
          ></input>
-         <span style={{ color: "white" }}>8</span>
+         <span style={{ color: "white" }}>8p</span>
          <input
             className={{ "form-check-input": true }}
             type="checkbox"
             value=""
             id="defaultCheck1"
          ></input>
-         <span style={{ color: "white" }}>9</span>
+         <span style={{ color: "white" }}>9p</span>
          <input
             className={{ "form-check-input": true }}
             type="checkbox"
             value=""
             id="defaultCheck1"
          ></input>
-         <span style={{ color: "white" }}>10</span>
+         <span style={{ color: "white" }}>10p</span>
          <input
             className={{ "form-check-input": true }}
             type="checkbox"
             value=""
             id="defaultCheck1"
          ></input>
-         <span style={{ color: "white" }}>11</span>
+         <span style={{ color: "white" }}>11p</span>
       </div>
    );
 }
