@@ -1,6 +1,7 @@
 import React from "react";
 import AppTemplate from "../ui/AppTemplate";
 import { Link } from "react-router-dom";
+import TimeTemplate from "../ui/TimeTemplate";
 
 export default function EditDetail() {
    return (
@@ -50,57 +51,7 @@ export default function EditDetail() {
             <option value="2">Downtown</option>
             <option value="3">Spring Valley</option>
          </select>
-         <p className="text-color-white">Availability</p>
-         <input
-            className={{ "form-check-input": true }}
-            type="checkbox"
-            value=""
-            id="defaultCheck1"
-         ></input>
-         Monday
-         <input
-            className={{ "form-check-input": true }}
-            type="checkbox"
-            value=""
-            id="defaultCheck1"
-         ></input>
-         Tuesday
-         <input
-            className={{ "form-check-input": true }}
-            type="checkbox"
-            value=""
-            id="defaultCheck1"
-         ></input>
-         Wednesday
-         <br />
-         <input
-            className={{ "form-check-input": true }}
-            type="checkbox"
-            value=""
-            id="defaultCheck1"
-         ></input>
-         Thursday
-         <input
-            className={{ "form-check-input": true }}
-            type="checkbox"
-            value=""
-            id="defaultCheck1"
-         ></input>
-         Friday
-         <input
-            className={{ "form-check-input": true }}
-            type="checkbox"
-            value=""
-            id="defaultCheck1"
-         ></input>
-         Saturday
-         <input
-            className={{ "form-check-input": true }}
-            type="checkbox"
-            value=""
-            id="defaultCheck1"
-         ></input>
-         Sunday
+         <TimeTemplate />
          <Link
             className="btn btn-lg btn-primary btn-success float-right"
             id="save-imagery"
