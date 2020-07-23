@@ -601,7 +601,7 @@ const playerCards = [
    },
    {
       id: "98f04cf9-80bc-454c-8b31-f4b21d972d63",
-      name: "Christian corrala",
+      name: "Christian Corrola",
       email: "christian@gmail.com",
       phone: "702-555-1072",
       createdAt: 1595527648858,
