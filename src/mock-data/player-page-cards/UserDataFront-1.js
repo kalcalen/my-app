@@ -1,5 +1,5 @@
 import React from "react";
-import memoryCards from "../mock-data/player-cards";
+import memoryCards from "../player-cards";
 import toDisplayDate from "date-fns/format";
 const memoryCard = memoryCards[2];
 

@@ -1,5 +1,5 @@
 import React from "react";
-import memoryCards from "../mock-data/player-cards";
+import memoryCards from "../player-cards";
 // import { time } from "console";
 
 const memoryCard = memoryCards[0];
