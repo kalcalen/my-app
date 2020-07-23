@@ -1,6 +1,6 @@
 import React from "react";
 import memoryCards from "../mock-data/memory-cards";
-// import toDisplayDate from "date-fns/format";
+import toDisplayDate from "date-fns/format";
 const memoryCard = memoryCards[0];
 
 export default function UserDataFront() {
@@ -11,7 +11,7 @@ export default function UserDataFront() {
                <div rows="6">{memoryCard.name}</div>
                <div rows="6">{memoryCard.email}</div>
                <div rows="6">{memoryCard.phone}</div>
-               {/* <p>{toDisplayDate(memoryCard.createdAt, "MMM")}</p> */}
+               <p>{toDisplayDate(memoryCard.createdAt, "MMM. d, y")}</p>
             </div>
          </div>
       </div>

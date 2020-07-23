@@ -4,6 +4,7 @@ const memoryCards = [
       name: "Kevin Alcalen",
       email: "kevo@yahoo.com",
       phone: "702-555-0729",
+      createdAt: 1595527648858,
       availability: {
          monday: {
             am6: true,
@@ -153,6 +154,7 @@ const memoryCards = [
       name: "Billy John",
       email: "billy@gmail.com",
       phone: "702-555-3953",
+      createdAt: 1595527648858,
       availability: {
          monday: {
             am6: false,
@@ -302,6 +304,7 @@ const memoryCards = [
       name: "Timmy Aristotle",
       email: "timmy@yahoo.com",
       phone: "702-555-9155",
+      createdAt: 1595527648858,
       availability: {
          monday: {
             am6: false,
@@ -451,6 +454,7 @@ const memoryCards = [
       name: "Dillon Salamander",
       email: "dillon@yahoo.com",
       phone: "702-555-6437",
+      createdAt: 1595527648858,
       availability: {
          monday: {
             am6: false,
@@ -600,6 +604,7 @@ const memoryCards = [
       name: "Christian corrala",
       email: "christian@gmail.com",
       phone: "702-555-1072",
+      createdAt: 1595527648858,
       availability: {
          monday: {
             am6: true,
