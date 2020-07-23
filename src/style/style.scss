@@ -13,7 +13,12 @@
 }
 
 .tab-active {
-   background-color: $gray-800;
+   background-color: #554c41;
+}
+
+.active {
+   background-color: #de3a11 !important;
+   border: none !important;
 }
 
 .card {
@@ -138,4 +143,10 @@ textarea {
 
 .table {
    color: white;
+}
+
+.time-checkbox-text {
+   color: white;
+   margin-right: 12px;
+   margin-left: 4px;
 }

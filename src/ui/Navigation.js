@@ -23,6 +23,7 @@ export default function Navigation() {
             className={`btn btn-secondary  btn-success tab-separator ${tabActiveOnPlayers(
                url
             )}`}
+            style={{ border: "none" }}
          >
             Players
          </NavLink>
@@ -32,6 +33,7 @@ export default function Navigation() {
             className={`btn btn-secondary  btn-success tab-separator ${tabActiveOnEditDetail(
                url
             )}`}
+            style={{ border: "none" }}
          >
             Edit Details
          </NavLink>
