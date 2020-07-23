@@ -1,4 +1,4 @@
-const memoryCardSchema = {
+const playerCardSchema = {
    id: String,
    imagery: String,
    answer: String,
