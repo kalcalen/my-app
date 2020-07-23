@@ -65,7 +65,7 @@ export default class Players extends React.Component {
                      className="btn btn-primary btn-success"
                      onClick={this.handleClick}
                   >
-                     Back to info.
+                     Back to info
                   </button>
                </div>
             </ReactCardFlip>

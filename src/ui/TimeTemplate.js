@@ -15,6 +15,58 @@ export default function TimeTemplate() {
             <option value="6">Friday</option>
             <option value="7">Saturday</option>
          </select>
+         <div className="mb-3"></div>
+         <input
+            className={{ "form-check-input": true }}
+            type="checkbox"
+            value=""
+            id="defaultCheck1"
+         ></input>
+         <span style={{ color: "white" }}>6</span>
+         <input
+            className={{ "form-check-input": true }}
+            type="checkbox"
+            value=""
+            id="defaultCheck1"
+         ></input>
+         <span style={{ color: "white" }}>7</span>
+         <input
+            className={{ "form-check-input": true }}
+            type="checkbox"
+            value=""
+            id="defaultCheck1"
+         ></input>
+         <span style={{ color: "white" }}>8</span>
+         <input
+            className={{ "form-check-input": true }}
+            type="checkbox"
+            value=""
+            id="defaultCheck1"
+         ></input>
+         <span style={{ color: "white" }}>9</span>
+         <input
+            className={{ "form-check-input": true }}
+            type="checkbox"
+            value=""
+            id="defaultCheck1"
+         ></input>
+         <span style={{ color: "white" }}>10</span>
+         <input
+            className={{ "form-check-input": true }}
+            type="checkbox"
+            value=""
+            id="defaultCheck1"
+         ></input>
+
+         <span style={{ color: "white" }}>11</span>
+         <input
+            className={{ "form-check-input": true }}
+            type="checkbox"
+            value=""
+            r
+            id="defaultCheck1"
+         ></input>
+         <span style={{ color: "white" }}>12</span>
          <input
             className={{ "form-check-input": true }}
             type="checkbox"
@@ -56,13 +108,11 @@ export default function TimeTemplate() {
             value=""
             id="defaultCheck1"
          ></input>
-         <br />
          <span style={{ color: "white" }}>6</span>
          <input
             className={{ "form-check-input": true }}
             type="checkbox"
             value=""
-            r
             id="defaultCheck1"
          ></input>
          <span style={{ color: "white" }}>7</span>
@@ -94,13 +144,6 @@ export default function TimeTemplate() {
             id="defaultCheck1"
          ></input>
          <span style={{ color: "white" }}>11</span>
-         <input
-            className={{ "form-check-input": true }}
-            type="checkbox"
-            value=""
-            id="defaultCheck1"
-         ></input>
-         <span style={{ color: "white" }}>12</span>
       </div>
    );
 }

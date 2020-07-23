@@ -53,7 +53,7 @@ export default function EditDetail() {
          </select>
          <TimeTemplate />
          <Link
-            className="btn btn-lg btn-primary btn-success float-right"
+            className="btn btn-lg btn-primary btn-success float-right mt-5"
             id="save-imagery"
             to=""
          >
