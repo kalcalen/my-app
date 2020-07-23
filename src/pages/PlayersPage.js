@@ -51,14 +51,22 @@ export default class Players extends React.Component {
             >
                <div>
                   <UserDataFront />
-                  <button onClick={this.handleClick}>
+                  <button
+                     className="btn btn-primary btn-success"
+                     onClick={this.handleClick}
+                  >
                      Click to see availability
                   </button>
                </div>
 
                <div>
                   <UserDataBack />
-                  <button onClick={this.handleClick}>Back to info.</button>
+                  <button
+                     className="btn btn-primary btn-success"
+                     onClick={this.handleClick}
+                  >
+                     Back to info.
+                  </button>
                </div>
             </ReactCardFlip>
          </AppTemplate>
