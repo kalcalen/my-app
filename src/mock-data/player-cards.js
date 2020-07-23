@@ -1,4 +1,4 @@
-const memoryCards = [
+const playerCards = [
    {
       id: "b44717bb-e0c5-49ca-af1d-4c34df45a3a6",
       name: "Kevin Alcalen",
@@ -751,4 +751,4 @@ const memoryCards = [
    },
 ];
 
-export default memoryCards;
+export default playerCards;
