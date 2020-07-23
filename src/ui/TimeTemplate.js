@@ -63,7 +63,6 @@ export default function TimeTemplate() {
             className={{ "form-check-input": true }}
             type="checkbox"
             value=""
-            r
             id="defaultCheck1"
          ></input>
          <span style={{ color: "white" }}>12p</span>
