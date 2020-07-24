@@ -68,45 +68,45 @@ export default function UserDataBack() {
                         <td>9a</td>
                         <td>
                            <label display={memoryCard.availability.sunday.am11}>
-                              X
+                              N/A
                            </label>
                         </td>
                         <td>
                            <label display={memoryCard.availability.monday.am11}>
-                              X
+                              N/A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.tuesday.am11}
                            >
-                              X
+                              N/A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.wednesday.am11}
                            >
-                              X
+                              N/A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.thursday.am11}
                            >
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label display={memoryCard.availability.friday.am11}>
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.saturday.am11}
                            >
-                              X
+                              A
                            </label>
                         </td>
                      </tr>
@@ -115,45 +115,45 @@ export default function UserDataBack() {
                         <td>10a</td>
                         <td>
                            <label display={memoryCard.availability.sunday.am11}>
-                              X
+                              N/A
                            </label>
                         </td>
                         <td>
                            <label display={memoryCard.availability.monday.am11}>
-                              X
+                              N/A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.tuesday.am11}
                            >
-                              X
+                              N/A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.wednesday.am11}
                            >
-                              X
+                              N/A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.thursday.am11}
                            >
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label display={memoryCard.availability.friday.am11}>
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.saturday.am11}
                            >
-                              X
+                              A
                            </label>
                         </td>
                      </tr>
@@ -161,45 +161,45 @@ export default function UserDataBack() {
                         <td>11a</td>
                         <td>
                            <label display={memoryCard.availability.sunday.am11}>
-                              X
+                              N/A
                            </label>
                         </td>
                         <td>
                            <label display={memoryCard.availability.monday.am11}>
-                              X
+                              N/A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.tuesday.am11}
                            >
-                              X
+                              N/A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.wednesday.am11}
                            >
-                              X
+                              N/A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.thursday.am11}
                            >
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label display={memoryCard.availability.friday.am11}>
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.saturday.am11}
                            >
-                              X
+                              A
                            </label>
                         </td>
                      </tr>
@@ -207,45 +207,45 @@ export default function UserDataBack() {
                         <td>12p</td>
                         <td>
                            <label display={memoryCard.availability.sunday.am11}>
-                              X
+                              N/A
                            </label>
                         </td>
                         <td>
                            <label display={memoryCard.availability.monday.am11}>
-                              X
+                              N/A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.tuesday.am11}
                            >
-                              X
+                              N/A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.wednesday.am11}
                            >
-                              X
+                              N/A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.thursday.am11}
                            >
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label display={memoryCard.availability.friday.am11}>
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.saturday.am11}
                            >
-                              X
+                              A
                            </label>
                         </td>
                      </tr>
@@ -253,45 +253,45 @@ export default function UserDataBack() {
                         <td>1p</td>
                         <td>
                            <label display={memoryCard.availability.sunday.am11}>
-                              X
+                              N/A
                            </label>
                         </td>
                         <td>
                            <label display={memoryCard.availability.monday.am11}>
-                              X
+                              N/A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.tuesday.am11}
                            >
-                              X
+                              N/A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.wednesday.am11}
                            >
-                              X
+                              N/A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.thursday.am11}
                            >
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label display={memoryCard.availability.friday.am11}>
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.saturday.am11}
                            >
-                              X
+                              A
                            </label>
                         </td>
                      </tr>
@@ -299,45 +299,45 @@ export default function UserDataBack() {
                         <td>2p</td>
                         <td>
                            <label display={memoryCard.availability.sunday.am11}>
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label display={memoryCard.availability.monday.am11}>
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.tuesday.am11}
                            >
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.wednesday.am11}
                            >
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.thursday.am11}
                            >
-                              X
+                              N/A
                            </label>
                         </td>
                         <td>
                            <label display={memoryCard.availability.friday.am11}>
-                              X
+                              N/A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.saturday.am11}
                            >
-                              X
+                              N/A
                            </label>
                         </td>
                      </tr>
@@ -345,45 +345,45 @@ export default function UserDataBack() {
                         <td>3p</td>
                         <td>
                            <label display={memoryCard.availability.sunday.am11}>
-                              X
+                              N/A
                            </label>
                         </td>
                         <td>
                            <label display={memoryCard.availability.monday.am11}>
-                              X
+                              N/A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.tuesday.am11}
                            >
-                              X
+                              N/A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.wednesday.am11}
                            >
-                              X
+                              N/A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.thursday.am11}
                            >
-                              X
+                              N/A
                            </label>
                         </td>
                         <td>
                            <label display={memoryCard.availability.friday.am11}>
-                              X
+                              N/A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.saturday.am11}
                            >
-                              X
+                              N/A
                            </label>
                         </td>
                      </tr>
@@ -391,45 +391,45 @@ export default function UserDataBack() {
                         <td>4p</td>
                         <td>
                            <label display={memoryCard.availability.sunday.am11}>
-                              X
+                              N/A
                            </label>
                         </td>
                         <td>
                            <label display={memoryCard.availability.monday.am11}>
-                              X
+                              N/A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.tuesday.am11}
                            >
-                              X
+                              N/A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.wednesday.am11}
                            >
-                              X
+                              N/A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.thursday.am11}
                            >
-                              X
+                              N/A
                            </label>
                         </td>
                         <td>
                            <label display={memoryCard.availability.friday.am11}>
-                              X
+                              N/A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.saturday.am11}
                            >
-                              X
+                              N/A
                            </label>
                         </td>
                      </tr>
@@ -437,45 +437,45 @@ export default function UserDataBack() {
                         <td>5p</td>
                         <td>
                            <label display={memoryCard.availability.sunday.am11}>
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label display={memoryCard.availability.monday.am11}>
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.tuesday.am11}
                            >
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.wednesday.am11}
                            >
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.thursday.am11}
                            >
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label display={memoryCard.availability.friday.am11}>
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.saturday.am11}
                            >
-                              X
+                              A
                            </label>
                         </td>
                      </tr>
@@ -483,45 +483,45 @@ export default function UserDataBack() {
                         <td>6p</td>
                         <td>
                            <label display={memoryCard.availability.sunday.am11}>
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label display={memoryCard.availability.monday.am11}>
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.tuesday.am11}
                            >
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.wednesday.am11}
                            >
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.thursday.am11}
                            >
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label display={memoryCard.availability.friday.am11}>
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.saturday.am11}
                            >
-                              X
+                              A
                            </label>
                         </td>
                      </tr>
@@ -529,45 +529,45 @@ export default function UserDataBack() {
                         <td>7p</td>
                         <td>
                            <label display={memoryCard.availability.sunday.am11}>
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label display={memoryCard.availability.monday.am11}>
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.tuesday.am11}
                            >
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.wednesday.am11}
                            >
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.thursday.am11}
                            >
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label display={memoryCard.availability.friday.am11}>
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.saturday.am11}
                            >
-                              X
+                              A
                            </label>
                         </td>
                      </tr>
@@ -575,45 +575,45 @@ export default function UserDataBack() {
                         <td>8p</td>
                         <td>
                            <label display={memoryCard.availability.sunday.am11}>
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label display={memoryCard.availability.monday.am11}>
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.tuesday.am11}
                            >
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.wednesday.am11}
                            >
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.thursday.am11}
                            >
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label display={memoryCard.availability.friday.am11}>
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.saturday.am11}
                            >
-                              X
+                              A
                            </label>
                         </td>
                      </tr>
@@ -621,45 +621,45 @@ export default function UserDataBack() {
                         <td>9p</td>
                         <td>
                            <label display={memoryCard.availability.sunday.am11}>
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label display={memoryCard.availability.monday.am11}>
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.tuesday.am11}
                            >
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.wednesday.am11}
                            >
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.thursday.am11}
                            >
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label display={memoryCard.availability.friday.am11}>
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.saturday.am11}
                            >
-                              X
+                              A
                            </label>
                         </td>
                      </tr>
@@ -667,45 +667,45 @@ export default function UserDataBack() {
                         <td>10p</td>
                         <td>
                            <label display={memoryCard.availability.sunday.am11}>
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label display={memoryCard.availability.monday.am11}>
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.tuesday.am11}
                            >
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.wednesday.am11}
                            >
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.thursday.am11}
                            >
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label display={memoryCard.availability.friday.am11}>
-                              X
+                              A
                            </label>
                         </td>
                         <td>
                            <label
                               display={memoryCard.availability.saturday.am11}
                            >
-                              X
+                              A
                            </label>
                         </td>
                      </tr>
