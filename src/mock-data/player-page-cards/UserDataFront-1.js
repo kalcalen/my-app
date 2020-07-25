@@ -1,7 +1,7 @@
 import React from "react";
 import memoryCards from "../player-cards";
 import toDisplayDate from "date-fns/format";
-const memoryCard = memoryCards[2];
+const memoryCard = memoryCards[0];
 
 export default function UserDataFront() {
    return (
