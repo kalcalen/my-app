@@ -1,18 +1,16 @@
 import React from "react";
 import AppTemplate from "../ui/AppTemplate";
+import UserDataFront from "../ui/UserDataFront";
+import UserDataBack from "../ui/UserDataBack";
 import ReactCardFlip from "react-card-flip";
-import UserDataFront1 from "../mock-data/player-page-cards/UserDataFront-1";
-import UserDataBack1 from "../mock-data/player-page-cards/UserDataBack-1";
-import UserDataFront2 from "../mock-data/player-page-cards/UserDataFront-2";
-import UserDataBack2 from "../mock-data/player-page-cards/UserDataBack-2";
-import UserDataFront3 from "../mock-data/player-page-cards/UserDataFront-3";
-import UserDataBack3 from "../mock-data/player-page-cards/UserDataBack-3";
-import UserDataFront4 from "../mock-data/player-page-cards/UserDataFront-4";
-import UserDataBack4 from "../mock-data/player-page-cards/UserDataBack-4";
-import UserDataFront5 from "../mock-data/player-page-cards/UserDataFront-5";
-import UserDataBack5 from "../mock-data/player-page-cards/UserDataBack-5";
+
+export function handleClicks(e) {
+   return Players.handleClick(e); 
+}
 
 export default class Players extends React.Component {
+   //create external access to internal method
+   //handleClicks = this.handleClick;
    componentDidMount() {
       // Function for today
       let date = new Date();
@@ -58,123 +56,11 @@ export default class Players extends React.Component {
                flipDirection="horizontal"
             >
                <div>
-                  <UserDataFront1 />
-                  <button
-                     className="btn btn-primary btn-success mb-5"
-                     onClick={this.handleClick}
-                  >
-                     Click to see availability
-                  </button>
+                  <UserDataFront />
                </div>
 
                <div>
-                  <UserDataBack1 />
-                  <button
-                     className="btn btn-primary btn-success mb-5"
-                     onClick={this.handleClick}
-                  >
-                     Back to info
-                  </button>
-               </div>
-            </ReactCardFlip>
-
-            <ReactCardFlip
-               isFlipped={this.state.isFlipped}
-               flipDirection="horizontal"
-            >
-               <div>
-                  <UserDataFront2 />
-                  <button
-                     className="btn btn-primary btn-success mb-5"
-                     onClick={this.handleClick}
-                  >
-                     Click to see availability
-                  </button>
-               </div>
-
-               <div>
-                  <UserDataBack2 />
-                  <button
-                     className="btn btn-primary btn-success mb-5"
-                     onClick={this.handleClick}
-                  >
-                     Back to info
-                  </button>
-               </div>
-            </ReactCardFlip>
-
-            <ReactCardFlip
-               isFlipped={this.state.isFlipped}
-               flipDirection="horizontal"
-            >
-               <div>
-                  <UserDataFront3 />
-                  <button
-                     className="btn btn-primary btn-success mb-5"
-                     onClick={this.handleClick}
-                  >
-                     Click to see availability
-                  </button>
-               </div>
-
-               <div>
-                  <UserDataBack3 />
-                  <button
-                     className="btn btn-primary btn-success mb-5"
-                     onClick={this.handleClick}
-                  >
-                     Back to info
-                  </button>
-               </div>
-            </ReactCardFlip>
-
-            <ReactCardFlip
-               isFlipped={this.state.isFlipped}
-               flipDirection="horizontal"
-            >
-               <div>
-                  <UserDataFront4 />
-                  <button
-                     className="btn btn-primary btn-success mb-5"
-                     onClick={this.handleClick}
-                  >
-                     Click to see availability
-                  </button>
-               </div>
-
-               <div>
-                  <UserDataBack4 />
-                  <button
-                     className="btn btn-primary btn-success mb-5"
-                     onClick={this.handleClick}
-                  >
-                     Back to info
-                  </button>
-               </div>
-            </ReactCardFlip>
-
-            <ReactCardFlip
-               isFlipped={this.state.isFlipped}
-               flipDirection="horizontal"
-            >
-               <div>
-                  <UserDataFront5 />
-                  <button
-                     className="btn btn-primary btn-success mb-5"
-                     onClick={this.handleClick}
-                  >
-                     Click to see availability
-                  </button>
-               </div>
-
-               <div>
-                  <UserDataBack5 />
-                  <button
-                     className="btn btn-primary btn-success mb-5"
-                     onClick={this.handleClick}
-                  >
-                     Back to info
-                  </button>
+                  <UserDataBack />
                </div>
             </ReactCardFlip>
          </AppTemplate>
